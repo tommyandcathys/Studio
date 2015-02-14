@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BoxLayout" boxLayoutAxis="Y" title="Studio-Gospel Series" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" enabled="false" >
+      <custom name="text" type="java.lang.String" value="Love is patient.  Love is kind. -- 1 Corinthian 13:4a" />
+    </component>
+    <component type="SpanLabel" name="SpanLabel1" cloudDestinationProperty="SpanLabel1" focusable="false" enabled="false" >
+      <custom name="text" type="java.lang.String" value="So God created human beings in his own likeness.  He created them to be like Himself.  He created them as male and female. -- Genesis 1:27" />
+    </component>
+    <component type="SpanLabel" name="SpanLabel2" cloudDestinationProperty="SpanLabel2" >
+      <custom name="text" type="java.lang.String" value="Everyone has sinned.  No one measures up to God's glory. -- Romans 3:23" />
+    </component>
+    <component type="SpanLabel" name="SpanLabel3" cloudDestinationProperty="SpanLabel3" >
+      <custom name="text" type="java.lang.String" value="But here is how God has shown his love for us, while we were still sinners Christ died for us.  -- Romans 5:8" />
+    </component>
+    <component type="SpanLabel" name="SpanLabel4" cloudDestinationProperty="SpanLabel4" >
+      <custom name="text" type="java.lang.String" value="Jesus answered, 'I am the way and the truth and the life.  No one comes to the Father except through me.' -- John 14:6" />
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" enabled="false" scrollVisible="false" tensileDragEnabled="false" tactileTouch="false" text="" icon="gospel.png" verticalAlignment="4" >
+    </component>
+  </component>
+</component>
